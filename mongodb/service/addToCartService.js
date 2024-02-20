@@ -1,5 +1,5 @@
-const { cartModel } = require("../model/productModel");
 const customerModel = require("../model/customermodel");
+const { cartModel } = require("../model/productModel");
 
 const createCart = async (body) => {
   const data = await cartModel.create(body);
